@@ -6,6 +6,25 @@ tr, th {
     padding: 10px;
     margin: 10px;
 }
+div::after {
+        content: "";
+        background: url("nature.png");
+        background-repeat: no-repeat;
+    background-position: fixed;
+    background-attachment: scroll;
+    background-size: 100%;
+        opacity: 0.3 ;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;   
+      }
+      div.background {
+          text-align: center;
+
+      }
 
 .boxsize {
     width: 9%;
