@@ -1,0 +1,35 @@
+table, tr, th {
+    border: 1px solid rgba(99,91,97,.4);
+    border-collapse: collapse;
+}
+tr, th {
+    padding: 10px;
+    margin: 10px;
+}
+
+.boxsize {
+    width: 9%;
+}
+.boxsize:hover {
+    background-color: rgba(81,85,93,.3)
+}
+.topbox:hover {
+    background-color: rgba(80,169,0,.4);
+}
+.toprow {
+    height: 70px;
+    background-color: rgba(79,255,0,.3)
+}
+#hourglass {
+    width: 15%;
+    text-align: center;
+}
+#menudots {
+    width: 30%;
+    text-align: center;
+}
+#row2 {
+    height: 70px;
+    background-color: lightgray;
+}
+
